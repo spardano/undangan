@@ -1,8 +1,19 @@
+body {
+  background-image: url(../img/bg-green.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .jumbotron {
+  min-height: 800px;
   background-image: url(../img/pantai2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 0px;
+}
+
+.jumbotron .container {
+  margin-top: 150px;
 }
 
 .jumbotron img {
@@ -21,6 +32,10 @@
   font-weight: lighter;
   color: white;
   margin-bottom: 40px;
+}
+
+.jumbotron i {
+  color: #fabe63;
 }
 
 .arrow {
@@ -64,7 +79,7 @@ section hr {
 #pengantin h1 {
   font-family: "Parisienne", cursive;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 45px;
   color: white;
 }
 
@@ -85,8 +100,7 @@ section hr {
 
 #timeandplace .time,
 .place {
-  height: 400px;
-  background-color: #ffaebc;
+  background-color: #f8bcc6;
   margin-top: 40px;
   border-radius: 20px;
   padding: 20px;
@@ -98,6 +112,35 @@ section hr {
   background-color: white;
 }
 
-#timeplace i {
-  color: black;
+#timeandplace i {
+  color: #fabe63;
+}
+
+#timeandplace .content {
+  color: rgb(49, 49, 49);
+}
+
+#timeandplace .content p {
+  font-size: 20px;
+}
+
+#timeandplace .content .countdown {
+  border: 3px solid #be9049;
+  padding-top: 20px;
+  color: #be9049;
+}
+
+.place img {
+  border-radius: 25px;
+}
+
+#note .content {
+  margin-top: 40px;
+}
+
+#note p {
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  line-height: 26pt;
 }
