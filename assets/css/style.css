@@ -17,7 +17,7 @@ body {
 }
 
 .jumbotron img {
-  width: 246px;
+  width: 290px;
 }
 
 .walimatul {
@@ -79,7 +79,7 @@ section hr {
 #pengantin h1 {
   font-family: "Parisienne", cursive;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 6.5vw;
   color: white;
 }
 
@@ -90,7 +90,7 @@ section hr {
 
 #pengantin p {
   color: white;
-  font-size: 20px;
+  font-size: 3vw;
   font-family: "Montserrat", sans-serif;
 }
 
