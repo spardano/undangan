@@ -33,11 +33,14 @@
     <title>Wedding Anouncement Youlin & Wawan</title>
   </head>
   <body>
-    <audio src="assets/music/mine.mp3" autoplay>
-      <p>
-        If you are reading this, it is because your browser does not support the
-        audio element.
-      </p>
+    <iframe
+      src="assets/music/mine.mp3"
+      allow="autoplay"
+      style="display: none"
+      id="iframeaudio"
+    ></iframe>
+    <audio autoplay loop id="playaudio">
+      <source src="assets/music/mine.mp3" />
     </audio>
 
     <div class="jumbotron jumbotron-fluid shadow-lg">
@@ -59,9 +62,8 @@
           data-aos-duration="1500"
         >
           Assalamu’alaikum Warahmatullahi Wabarakatuh <br />
-          "Dengan memohon rahmat serta ridho Allah Subhanahu wa ta'ala,
-          perkenankanlah kami menyelenggarakan acara pernikahan putra-putri
-          kami"
+          Dengan memohon rahmat serta ridho Allah Subhanahu wa ta'ala,
+          perkenankanlah kami menyelenggarakan acara pernikahan putra-putri kami
           <br />
         </p>
 
@@ -90,7 +92,7 @@
             <h1>Yuolin Dita Humairah, S.T</h1>
             <p>Putri Dari Bpk. Ir. Budi Azhari & Ibu Dra. Yulhemita</p>
 
-            <img src="assets/img/ring.png" alt="" />
+            <img src="assets/img/ringsilver.png" alt="" />
 
             <!-- Penganti Pria -->
             <h1>Wawan Aries Sandi, S.T</h1>
@@ -230,6 +232,18 @@
 
     <script>
       AOS.init();
+    </script>
+
+    <script>
+      var isChrome =
+        /Chrome/.test(navigator.userAgent) &&
+        /Google Inc/.test(navigator.vendor);
+
+      if (!isChrome) {
+        $("#iframeaudio").remove();
+      } else {
+        $("#playaudio").remove();
+      }
     </script>
   </body>
 </html>
