@@ -81,7 +81,7 @@
           </div>
           <div class="content text-center mt-4">
             <h2>Rabu, 28 Oktober 2020</h2>
-            <p>9:00 Pagi Sampai Selesai</p>
+            <p>09:00 Pagi Sampai Selesai</p>
 
             <div class="countdown col-sm-5 mx-auto mt-4">
               <p id="hitungmundur" class="mb-4"></p>
