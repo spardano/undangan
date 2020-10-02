@@ -46,7 +46,8 @@
   </div>
 
   <div class="arrow rounded-circle mx-auto" data-aos="zoom-in">
-    <img src="assets/img/arrow.png" alt="" />
+    <h1>OW</h1>
+    <!-- <img src="assets/img/arrow.png" width="60px" alt="" /> -->
   </div>
 
   <section id="pengantin">
