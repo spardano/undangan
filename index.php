@@ -57,7 +57,7 @@
           <h1>Yuolin Dita Humairah, S.T</h1>
           <p>Putri Dari Bpk. Ir. Budi Azhari & Ibu Dra. Yulhemita</p>
 
-          <img src="assets/img/ringsilver.png" alt="" />
+          <h1 style="font-size:9vw; margin-top:40px; margin-bottom:40px">&</h1>
 
           <!-- Penganti Pria -->
           <h1>Wawan Aries Sandi, S.T</h1>

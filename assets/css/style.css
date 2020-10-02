@@ -67,7 +67,7 @@ section hr {
 
 #pengantin .nama {
   background-image: linear-gradient(90deg, #a0e7e5, #ffaebc);
-  padding: 20px;
+  padding: 10px;
 }
 
 #pengantin .nama .garis {
@@ -79,7 +79,7 @@ section hr {
 #pengantin h1 {
   font-family: "Parisienne", cursive;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 7vw;
   color: white;
 }
 
@@ -91,7 +91,7 @@ section hr {
 
 #pengantin p {
   color: white;
-  font-size: 20px;
+  font-size: 3vw;
   font-family: "Montserrat", sans-serif;
 }
 
