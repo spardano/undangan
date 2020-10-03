@@ -55,13 +55,13 @@
       <div class="nama col-sm-8 offset-sm-2" data-aos="fade-up" data-aos-duration="1800">
         <div class="garis col-sm text-center">
           <!-- Pengantin wanita -->
-          <h1>Yuolin Dita Humairah, S.T</h1>
+          <h1 style="font-size: 24px;">Yuolin Dita Humairah, S.T</h1>
           <p>Putri Dari Bpk. Ir. Budi Azhari & Ibu Dra. Yulhemita</p>
 
           <h1 style="font-size:9vw; margin-top:40px; margin-bottom:40px">&</h1>
 
           <!-- Penganti Pria -->
-          <h1>Wawan Aries Sandi, S.T</h1>
+          <h1 style="font-size: 24px;">Wawan Aries Sandi, S.T</h1>
           <p>Putra Dari Bpk. Wahidul Kahar & Ibu Zulhayati</p>
         </div>
       </div>
@@ -80,7 +80,7 @@
           <div class="logo rounded-circle mx-auto text-center">
             <i class="fas fa-calendar-alt fa-3x mt-3"></i>
           </div>
-          <div class="content text-center mt-4">
+          <div class="content text-center mt-4" style="font-family:  Montserrat, sans-serif;">
             <h2>Rabu, 28 Oktober 2020</h2>
             <p>09:00 WIB s/d Sampai Selesai</p>
 
@@ -95,7 +95,7 @@
             <i class="fas fa-map-marker-alt fa-3x mt-3"></i>
           </div>
 
-          <div class="content text-center mt-4">
+          <div class="content text-center mt-4" style="font-family:  Montserrat, sans-serif;">
             <p>
               Jl. Angkatan Lrg. Jambu, Kec. Kemuning, Kota Palembang, Sumatera
               Selatan

@@ -81,12 +81,13 @@ section hr {
   border: double 2px white;
   padding-top: 100px;
   padding-bottom: 80px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #pengantin h1 {
   font-family: "Parisienne", cursive;
   font-weight: bold;
-  font-size: 6vw;
   color: white;
 }
 
@@ -98,7 +99,7 @@ section hr {
 
 #pengantin p {
   color: white;
-  font-size: 18px;
+  font-size: 12px;
   font-family: "Montserrat", sans-serif;
 }
 
