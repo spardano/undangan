@@ -59,7 +59,7 @@ body {
 }
 
 section {
-  min-height: 600px;
+  min-height: 500px;
   margin-bottom: 70px;
 }
 
@@ -87,7 +87,7 @@ section hr {
 
 #pengantin h1 {
   font-family: "Parisienne", cursive;
-  font-weight: bold;
+  font-size: 8vw;
   color: white;
 }
 
@@ -148,8 +148,8 @@ section hr {
 }
 
 #note p {
-  font-size: 20px;
-  text-align: justify;
+  font-size: 18px;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   line-height: 26pt;
 }
